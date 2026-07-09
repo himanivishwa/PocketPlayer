@@ -1,6 +1,6 @@
 ![front_pcb](assets/front.png)
 ![back_pcb](assets/back.png)
-![schema_pcb](assets/schema.drawio.png)
+![schema_pcb](docs/schema.drawio.png)
 
 | Value                 | Function               | Footprint                                            | Qty | Price   | Amount  | Amount (USD) | Link                     |
 |-----------------------|-------------------------|-------------------------------------------------------|:---:|--------:|--------:|-------------:|---------------------------|
