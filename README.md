@@ -1,4 +1,4 @@
-NOTE :FIRMWARE IS NOT TESTED
+### NOTE : FIRMWARE IS NOT TESTED
 ## POCKET PLAYER
 ![front_pcb](assets/front.png)
 ![back_pcb](assets/back.png)
