@@ -10,7 +10,7 @@
 ## Features
 
 - Rechargeable via USB-C
-- Plays audio through onboard DFPlayer + speaker
+- Plays audio through onboard DFPlayer + 3.5mm jack
 - 1.3" OLED for status/UI
 - 3 physical buttons for control
 - Built on ESP32-C3 SuperMini — WiFi/BLE ready
