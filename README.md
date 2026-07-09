@@ -1,6 +1,32 @@
+## POCKET PLAYER
 ![front_pcb](assets/front.png)
 ![back_pcb](assets/back.png)
+
+## why i built this
+
+ I was heavily inspired by retro tech and how minimal they were so i wanted to recreated something without distraction for myself
+
+ 
+## Features
+
+- Rechargeable via USB-C
+- Plays audio through onboard DFPlayer + speaker
+- 1.3" OLED for status/UI
+- 3 physical buttons for control
+- Built on ESP32-C3 SuperMini — WiFi/BLE ready
+
+## How it works
+
+When a button is pressed, the ESP32-C3 sends a serial command over UART to the DFPlayer Mini, telling it which track number to play from the microSD card. The DFPlayer handles all the actual audio decoding and playback internally ,it reads the MP3 file off the card, decodes it, and outputs the analog signal directly through its onboard DAC and amplifier to the 3.5mm jack. The ESP32 doesn't process any audio itself
+
+  
+### Schematic
 ![schema_pcb](docs/schema.drawio.png)
+
+**Battery wiring note:** the battery is soldered directly to the board
+(no JST connector) — see schematic for polarity.
+
+### Bill of Materials
 
 | Value                 | Function               | Footprint                                            | Qty | Price   | Amount  | Amount (USD) | Link                     |
 |-----------------------|-------------------------|-------------------------------------------------------|:---:|--------:|--------:|-------------:|---------------------------|
